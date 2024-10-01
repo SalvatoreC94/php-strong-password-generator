@@ -1,4 +1,6 @@
-<?
+<?php
+// Includi il file delle funzioni
+include 'functions.php';
 
 // Controlla se è stata inviata una lunghezza della password
 if (isset($_GET['length']) && is_numeric($_GET['length'])) {
@@ -33,6 +35,6 @@ if (isset($_GET['length']) && is_numeric($_GET['length'])) {
         </div>
     </div>
 
-   
+    
 </body>
 </html>

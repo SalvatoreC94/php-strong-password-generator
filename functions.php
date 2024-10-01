@@ -1,6 +1,4 @@
 <?php
-include __DIR__ 'functions.php';
-
 // Funzione per generare una password casuale
 function generatePassword($length) {
     $lowercase = 'abcdefghijklmnopqrstuvwxyz';
